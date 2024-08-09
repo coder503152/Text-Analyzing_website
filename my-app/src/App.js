@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navbar title="TextAnalyzer" aboutText="About the text Utils" />
+      <Navbar title="TextAnalyzer" aboutText="About" />
       <div className="container my-5">
         <Routes>
           <Route path="/" element={<TextForm heading="Enter the required text you want to operate" />} />
